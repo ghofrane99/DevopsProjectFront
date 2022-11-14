@@ -101,6 +101,14 @@
 		</dependency>
 	</dependencies>
 
+	<distributionManagement>
+<repository>
+<id>deploymentRepo</id>
+<name>Nexus_Devops</name>
+<url>http://http://172.20.10.3:8081/repository/Nexus_Devops/</url>
+</repository>
+</distributionManagement>
+
 	<build>
 		<plugins>
 			<plugin>
